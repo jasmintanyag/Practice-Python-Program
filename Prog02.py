@@ -10,5 +10,3 @@ num1 = float(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 if num1 == num2:
     print(Style.LIGHTCYAN + Style.BOLD + "Equal" + Style.RESET)
-else:
-    print(Style.RED +  Style.BOLD + "Not Equal" + Style.RESET)
